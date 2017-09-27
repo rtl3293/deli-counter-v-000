@@ -1,5 +1,5 @@
 # Write your code here.
-katz_deli =["John", "Kathy"]
+katz_deli =[]
 
 def line(array)
   if array.length == 0
