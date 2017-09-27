@@ -4,6 +4,9 @@ katz_deli =[]
 def line(array)
   if array = []
     puts "The line is currently empty."
+  else
+    puts "The line is currently: " + array.each_with_index {|x, i| "#{i}. #{x}"}
+
 end
 
 def take_a_number(array)
