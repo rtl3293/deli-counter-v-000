@@ -5,8 +5,8 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
   else
+    array.each_with_index {|x, i| x.prepend("#{i+1}. ")}
     array[0].prepend("The line is currently: ")
-    puts array.each_with_index {|x, i| " #{i+1}. #{x}"}
   end
 end
 
