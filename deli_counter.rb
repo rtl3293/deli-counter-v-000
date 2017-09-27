@@ -18,7 +18,11 @@ def take_a_number(array, name)
 end
 
 def now_serving(array)
-
+  if katz_deli == []
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{array[0]}"
+    array.unshift()
 end
 
 #line(katz_deli)
