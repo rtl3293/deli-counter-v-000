@@ -23,6 +23,7 @@ def now_serving(array)
   else
     puts "Currently serving #{array[0]}"
     array.unshift()
+  end
 end
 
 #line(katz_deli)
