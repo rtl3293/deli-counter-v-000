@@ -17,5 +17,3 @@ end
 def now_serving(array)
 
 end
-
-line(katz_deli)
