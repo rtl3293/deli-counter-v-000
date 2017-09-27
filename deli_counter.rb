@@ -7,7 +7,7 @@ def line(array)
   else
     array.each_with_index {|x, i| x.prepend("#{i+1}. ")}
     array[0].prepend("The line is currently: ")
-    puts array.join()
+    puts array.join(" ")
   end
 end
 
